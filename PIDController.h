@@ -9,7 +9,7 @@ private:
 
 public:
     PIDController(double Kp, double Ki, double Kd, double Ta);
-    ~PIDController();
+    PIDController();
 
     void CalculateU(double dW, double dY);
     double GetU();
